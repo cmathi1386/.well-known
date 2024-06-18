@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.download-container {
+    text-align: center;
+}
+
+.download-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #23527c;
+}
+
+.download-count {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
